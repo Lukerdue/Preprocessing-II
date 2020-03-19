@@ -29,6 +29,19 @@
         border-radius: 10px;
       }//closes img
     }//closes img content
+    @media (max-width: 500px){
+      .flex();
+      .text-content, .img-content{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-items: center;
+      }
+      
+      #venice{
+        order: 1;
+      }
+    }
   }//closes content section
 
   .inverse-content {
@@ -67,6 +80,14 @@
       button{
         .buttons();
       }
-    }
-  }
+    }//destination
+    @media (max-width: 500px){
+      .destination{
+        width: 90%;
+      }
+      flex-direction: column;
+      align-items: center;
+    }//media query
+  }//content pick
+ 
 }// home

@@ -1,14 +1,20 @@
 nav{
     display: flex;
+    justify-content: center;
+    width: 100%;
+    border-bottom: 2px dashed @navigation-border;
+}
+.nav{
+    width: 800px;
+    display: flex;
     justify-content: space-between;
     margin-top: 3%;
     align-items:center;
-    border-bottom: 2px dashed @navigation-border;
+    
     .links{
         font-size: 1.7rem;
         margin: 3%;
         width: 50%;
-       
             a{
                 padding: 4%;
                 text-decoration: none;
@@ -18,4 +24,7 @@ nav{
             }//closes hover
         }//closes a
     }//closes links
-}//closess nav
+    h1{
+        display: inline-block;
+    }
+}//closess .nav

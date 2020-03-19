@@ -1,1 +1,21 @@
-// Navigation Styles here
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3%;
+    align-items:center;
+    border-bottom: 2px dashed @navigation-border;
+    .links{
+        font-size: 1.7rem;
+        margin: 3%;
+        width: 50%;
+       
+            a{
+                padding: 4%;
+                text-decoration: none;
+                color: black;
+            &:hover{
+            color: teal;
+            }//closes hover
+        }//closes a
+    }//closes links
+}//closess nav
